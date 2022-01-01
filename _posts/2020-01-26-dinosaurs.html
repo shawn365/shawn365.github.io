@@ -33,37 +33,68 @@ background: '/img/posts/01.jpg'
 
 <p>또한 위에서 고양이 사진에 마우스를 올려보면 첫번째 background-image는 "이미지를 다른 이름으로 저장..." 이 뜨지 않지만 semantic tag를 사용한 &ltimg&gt를 쓰면 "이미지를 다른 이름으로 저장..."이 뜬다</p>
 
+<p>background-image = 이미지로 인식 못함</p>
+
 <img class="img-fluid" src="/img/semantic/background-image.PNG" alt="background-image">
+
+<p>&ltimg&gt 태그 = 이미지로 인식, 저장, 복사, 검색 가능</p>
+
 <img class="img-fluid" src="/img/semantic/img.PNG" alt="img tag">
 
+<h4 class="section-heading">&ltimg&gt 태그를 사용하는게 좋은 경우</h4>
+<ol>
+	<li>
+	프린트가 필요한 경우
+		<ul>
+		백그라운드 이미지는 출력시 포함되지 않습니다
+		</ul>
+	</li>
+	<li>
+	이미지에 문구가 사용되어 의미를 가지는 경우
+		<ul>
+		이미지에 의미가 있는 경우, alt 태그를 사용해 의미 설명 가능
+		</ul>
+	</li>
+	<li>
+	이미지가 중요한 경우
+	</li>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+</ol>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+<h4 class="section-heading">background-image를 사용하는게 좋은 경우</h4>
+<ol>
+	<li>
+	일정부분만 선택해 보여줄 경우(예 - hover버튼)
+		<ul>
+		간단하게 css를 사용하여 이미지를 손 쉽게 변경 가능
+		</ul>
+	</li>
+	<li>
+	이미지 위에 텍스트가 들어가는 경우
+		<ul>
+		이미지 위에 텍스트가 들어가고, 백그라운드로 중요도가 높지 않을 때
+		</ul>
+	</li>
+	<li>
+	페이지 전체 출력시 이미지를 제거해야 되는 경우
+		<ul>
+		이미지가 출력되면 곤란한 경우거나 겹치는 경우
+		</ul>
+	</li>
+	<li>
+	CSS sprites를 사용해 이미지 속도를 향상시킬 경우
+		<ul>
+		다수의 img 태그를 통한 방법보다 CSS sprites 기법을 사용하면 이미지의 수정, 보관, 관리가 용이하고 미리 다른 아이콘 영역도 읽어들여 로딩 속도도 향상 가능
+		</ul>
+	</li>
+	<li>
+	배경 전체에 확대해 보여줄 필요가 있는 경우
+		<ul>
+		background-size 등의 속성을 사용해 배경 이미지를 간단하게 조작 가능
+		</ul>
+	</li>
+</ol>
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
+<h4 class="section-heading">결론적으로</h4>
+<p>이미지가 필요할때 특별한 경우가 아니라면 &ltimg&gt 태그를 사용하는게 좋다</p>
