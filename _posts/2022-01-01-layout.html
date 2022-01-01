@@ -2,16 +2,42 @@
 layout: post
 title: "position 과 inline"
 subtitle: "position - relative, absolute, fixed <br>inline, inline-block, block"
-date: 2022-01-01 23:45:13 -0400
+date: 2022-01-01 20:05:13 -0400
 background: '/img/posts/02.jpg'
 ---
 
-<h4 class="section-heading">position 속성</h2>
+<h2 class="section-heading">position 속성</h2>
 
 <p><strong>static</strong> : position 속성을 부여하지 않았을 때 가지는 디폴드 값</p>
+
 <p><strong>relative</strong> : 현재 위치에서 상대적인 offset 속성을 줄 수 있다</p>
+
 <p><strong>absolute</strong> : 부모 중에 static이 아닌 요소의 위치를 기준으로 상대적인 offset 속성을 줄 수 있다, 하지만 현재 위치가 변하는 것은 아니다</p>
+
 <p><strong>fixed</strong> : 브라우저에 대해서 위치를 잡는다. 스크롤에 영향을 받지 않고 고정된 위치를 가진다</p>
+
+<h4 class="section-heading">static</h2>
+{% include codepen.html hash="KKXomoG" title="Semantic Web과 Semantic Tag" %}
+<p>static은 position 속성을 부여하지 않았을 때 가지는 디폴드 값입니다</p>
+
+<h4 class="section-heading">relative</h2>
+{% include codepen.html hash="QWqmvrB" title="Semantic Web과 Semantic Tag" %}
+<p>second의 position을 relative로 변경하고 아래로 10px 오른쪽으로 10px만큼 offset을 주었습니다</p>
+
+<h4 class="section-heading">absolute</h2>
+{% include codepen.html hash="BawrRPY" title="Semantic Web과 Semantic Tag" %}
+<p>absolute 속성을 주는 순간 z축이 변경되었고 이로 인해서 남은 빈 공간에 third가 채워져 들어갔습니다. 이 때 (x, y) 의 위치는 변하지 않았습니다</p>
+
+<h4 class="section-heading">fixed</h2>
+{% include codepen.html hash="poWLPxq" title="Semantic Web과 Semantic Tag" %}
+<p>first에 fixed 속성을 주었습니다. 스크롤을 움직여도 똑같은 자리에 있는걸 확인할수 있습니다</p>
+
+
+
+
+
+
+
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
 <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
