@@ -117,10 +117,20 @@ background: '/img/posts/03.jpg'
 <ul>
 	<li>num1 = 7</li>
 	<li>num2 = 2</li>
-	<li>num3 = num1 //num2</li>
+	<li>num3 = num1 // num2</li>
 </ul>
 <p>num3의 값은 7 <b>/</b> 2 = 3.5 입니다. 하지만 7 <b>//</b> 2 = 3 이 됩니다.</p>
 <iframe src="https://trinket.io/embed/python/e197a99f97?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
+<h6>4-7. <b>%</b>(나머지)</h6>
+<ul>
+	<li>num1 = 6</li>
+	<li>num2 = 5</li>
+	<li>num3 = num1 % num2</li>
+</ul>
+<p>num3의 값은 6 <b>%</b> 5 = 1 입니다.</p>
+<iframe src="https://trinket.io/embed/python/14f51b260f?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <h4>5. Increment and Decrement a Number</h4>
 <h6>5-1. Increment a Number</h6>
@@ -131,21 +141,62 @@ background: '/img/posts/03.jpg'
 <iframe src="https://trinket.io/embed/python/d380f92c6c?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-<h6>5-1. Decrement a Number</h6>
+<h6>5-2. Decrement a Number</h6>
 <ul>
 	<li>파이썬 증감 연산자는 일반적인 -- 과 다르게 -= 연산자를 사용합니다.</li>
 	<li>-= 연산자를 사용하여 변수의 값을 1 감소시킬 수 있습니다.</li>
 </ul>
 <iframe src="https://trinket.io/embed/python/3d4f2310f5?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+<h4>6. Advanced Math Expressions</h4>
+<p>파이썬은 기본적인 수학 연산 표현 이외에도 다음과 같은 상급 수학 연산 표현 또한 지원하고 있습니다.</p>
+<ul>
+	<li><b>*=</b></li>
+	<li><b>/=</b></li>
+	<li><b>**</b></li>
+</ul>
+<h6>6-1. *=</h6>
+<p>*= 는 곱하기를 실행한 후의 값을 변수에 저장합니다.</p>
+<ul>
+	<li><b>num1 = 10</b></li>
+	<li><b>num1 *= 2</b></li>
+	<li><b>print(num1)</b></li>
+</ul>
+<p>num1의 값은 10 <b>*</b> 2 = 20 입니다.</p>
+<iframe src="https://trinket.io/embed/python/14f51b260f?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+<h6>6-2. /=</h6>
+<p>/= 는 곱하기를 실행한 후의 값을 변수에 저장합니다.</p>
+<ul>
+	<li><b>num1 = 10</b></li>
+	<li><b>num1 /= 2</b></li>
+	<li><b>print(num1)</b></li>
+</ul>
+<p>num1의 값은 10 <b>/</b> 2 = 5 입니다.</p>
+<iframe src="https://trinket.io/embed/python/888644d32b?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 
+<h6>6-3. **</h6>
+<p>** 는 제곱값을 구할때 사용합니다.</p>
+<ul>
+	<li><b>num1 = 10 ** 2</b></li>
+	<li><b>print(num1)</b></li>
+</ul>
+<p>num1의 값은 10 <b>**</b> 2 = 100 입니다.</p>
+<iframe src="https://trinket.io/embed/python/0fb2e1c328?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-
-
-
-
+<h4>5. Order of Operators</h4>
+<p>파이썬 수학 연산 표현들의 순서는 다음과 같습니다.</p>
+<ol>
+	<li><b>( )</b></li>
+	<li><b>**</b></li>
+	<li><b>*, /, %</b></li>
+	<li><b>+, -</b></li>
+</ol>
+<p>만일 실행되는 순서가 동일한 연산들이 있을 경우 (예를 들어 곱하기 와 나누기), 먼저 나오는 연산이 먼저 실행됩니다.</p>
+<p>여기서 중요하게 기억해야 하는 점은 괄호 입니다. 괄호안에 포함된 연산은 항상 먼저 실행됩니다.</p>
+<iframe src="https://trinket.io/embed/python/e0d579b01e?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
