@@ -198,36 +198,31 @@ background: '/img/posts/03.jpg'
 <p>여기서 중요하게 기억해야 하는 점은 괄호 입니다. 괄호안에 포함된 연산은 항상 먼저 실행됩니다.</p>
 <iframe src="https://trinket.io/embed/python/e0d579b01e?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+<h4>6. Concatenating Text Strings</h4>
+<h6>6-1. Concatenating Text Strings</h6>
+<p>숫자와 마찬가지로 string 도 더할 수 있습니다. 이를 string concatenation 이라고 합니다. 2개 혹은 그 이상의 문자열들을 잇는걸 뜻합니다. 예를 들어, 이전에는 "Hello, World!" 를 출력하기 위해서는 다음과 같이 구현했습니다.</p>
+<p>print("Hello, World")</p>
+<p>하지만, 다음 처럼 구현 할 수도 있습니다.</p>
+<p>print("Hello, " + "World")</p>
+<p>위에서 보았듯이 string 을 잇기 위해서 + 을 사용하면 됩니다.</p>
+<p>예를 들어, 저장한 변수를 사용해서 출력 하고 싶을 경우에는 string concatenation 을 사용하면 편리합니다.</p>
+<p>name = "shawn"</p>
+<p>print("Hello, " + name)</p>
+<iframe src="https://trinket.io/embed/python/880557cb63?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<h6>6-2. 복잡한 string concatenation</h6>
+<p>string concatenation 을 하는 방법에는 + 이외에도 다른 방법도 있습니다. 특히 길고 복잡한 문자열 인 경우에는 + 보다는 다른 방법을 사용하는게 효과적입니다. 그 중 가장 편리한 방법중 하나가 바로 literal string interpolation 입니다.</p>
+<p>name = input()</p>
+<p>print(f"Hello, {name}")</p>
+<p>literal string interpolation 을 사용하려면 다음의 문법을 지켜야 합니다:</p>
+<ul>
+	<li>먼저 따옴표 앞에 <b>f</b> 를 붙여야 합니다.</li>
+	<li>치환 하고 싶은 변수 (혹은 변수가 아니어도 됩니다. 예를 들어 함수 호출이 될 수도 있습니다) 를 <b>{}</b>를 사용해서 표시합니다.</li>
+</ul>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<h4>7. Concatenating Text Strings</h4>
+<p>Whitespace 란 바로 들여쓰기(indention)을 이야기 합니다. 다른 언어에서는 들여쓰기가 필수사항은 아닙니다. 단순히 코드의 가독성을 높이기 위해서 사용하는 수준입니다. 하지만 파이썬에서는 들여쓰기는 요구사항 입니다. 들여쓰기를 통해 코드의 종속성을 나타냅니다.</p>
+<img class="img-fluid" src="/img/posts/whitespace.jpg" alt="whitespace">
+<p>들여쓰기의 칸 수는 일반적으로 4칸입니다. (2칸을 사용하는 개발자도 있습니다.) 대부분 tab 사이즈를 space 4칸으로 설정해서 tab으로 들여쓰기를 합니다. </p>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
