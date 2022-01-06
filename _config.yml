@@ -21,7 +21,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-  hard_wrap: false
   syntax_highlighter: rouge
 paginate: 5
 paginate_path: "/posts/page:num/"
