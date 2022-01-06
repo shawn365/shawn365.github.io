@@ -21,13 +21,11 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-  hard_wrap: true
+  auto_ids: true
+  syntax_highlighter: rouge
 paginate: 5
 paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
-redcarpet:
-  extensions:
-    - fenced_code_blocks
