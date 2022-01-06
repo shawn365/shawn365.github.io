@@ -45,6 +45,15 @@ def func_param_with_var_args(name, *args, age):
 
 func_param_with_var_args("정우성", "01012341234", "seoul", 20)
 {% endhighlight %}
+
+```python
+def func_param_with_var_args(name, *args, age):
+    print("name=",end=""), print(name)
+    print("args=",end=""), print(args)
+    print("age=",end=""), print(age)
+
+func_param_with_var_args("정우성", "01012341234", "seoul", 20)
+```
 <h4>**kwargs</h4>
 <p>kwargs는 dictionary 형태로 값을 읽고 이 때 key와 value 값을 가지기 때문에 별표 **두개를 사용한다. kwargs로 값을 받기 위해서는 key값=value값 형식으로 넣어야 한다.</p>
 <p>kwarg를 사용하면 key, value를 받는 형식의 인자를 받을 수 있다.</p>
