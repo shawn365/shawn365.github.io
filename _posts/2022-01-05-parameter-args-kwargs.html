@@ -53,7 +53,40 @@ def func_param_with_var_args(name, *args, age):
     print("age=",end=""), print(age)
 
 func_param_with_var_args("정우성", "01012341234", "seoul", 20)
+# "정우성"은 name에 배정되고, '01012341234' 부터 20까지 *args에 배정된다.
 ```
+<p>실행해 보면 TypeError가 난다 이유는 *args 전에 있는 인자에 할당하고 남은 전부를 가져가서 그 뒤에 인자가 할당받을 것이 없어진다</p>
+<br>
+<p>error 해결 방법으로는</p>
+def func_param_with_var_args(name, age, *args):
+    print(f"name={name}")
+    print(f"args={args}")
+    print(f"age={age}")
+
+func_param_with_var_args("정우성", 20, "01012341234", "seoul")
+<p>*args를 맨뒤에 넣어주고 age의 값인 20을 순서에 맞게 넣어준다</p>
+# 결과
+
+# name=정우성
+# args=('01012341234', 'seoul')
+# age=20
+
+
+
+<p>다른 방법으로는</p>
+def func_param_with_var_args(name, *args, age = 20):
+    print("name=",end=""), print(name)
+    print("args=",end=""), print(args)
+    print("age=",end=""), print(age)
+
+func_param_with_var_args("정우성", "01012341234", "seoul")
+<p>age를 default value parameter로 만들어주는 것이다</p>
+# 결과
+
+# name=정우성
+# args=('01012341234', 'seoul')
+# age=20
+
 <h4>**kwargs</h4>
 <p>kwargs는 dictionary 형태로 값을 읽고 이 때 key와 value 값을 가지기 때문에 별표 **두개를 사용한다. kwargs로 값을 받기 위해서는 key값=value값 형식으로 넣어야 한다.</p>
 <p>kwarg를 사용하면 key, value를 받는 형식의 인자를 받을 수 있다.</p>
