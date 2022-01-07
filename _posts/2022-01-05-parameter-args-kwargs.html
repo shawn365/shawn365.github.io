@@ -46,7 +46,8 @@ def func_param_with_var_args(name, *args, age):
 func_param_with_var_args("정우성", "01012341234", "seoul", 20)
 {% endhighlight %}
 
-```python
+
+```
 def func_param_with_var_args(name, *args, age):
     print("name=",end=""), print(name)
     print("args=",end=""), print(args)
@@ -55,6 +56,7 @@ def func_param_with_var_args(name, *args, age):
 func_param_with_var_args("정우성", "01012341234", "seoul", 20)
 # "정우성"은 name에 배정되고, '01012341234' 부터 20까지 *args에 배정된다.
 ```
+
 <p>실행해 보면 TypeError가 난다 이유는 *args 전에 있는 인자에 할당하고 남은 전부를 가져가서 그 뒤에 인자가 할당받을 것이 없어진다</p>
 <br>
 <p>error 해결 방법으로는</p>
