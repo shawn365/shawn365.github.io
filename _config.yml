@@ -17,15 +17,9 @@ codepen_username: shawn365
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-
-paginate: 5
-paginate_path: "/posts/page:num/"
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate

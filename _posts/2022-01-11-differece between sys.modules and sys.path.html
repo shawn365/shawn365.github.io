@@ -26,3 +26,18 @@ background: '/img/posts/06.jpg'
 	<li>sys.modules => built-in modules => sys.path</li>
 </ul>
 
+
+def get_len_of_str(s):
+    # 아래 코드를 작성해주세요.
+    strlist = []
+    ans = 0
+    for i in range(len(s)):
+        if s[i] not in strlist:
+            strlist.append(s[i])
+        else:
+            strlist = [s[i]]
+            
+            strlist = []
+            strlist.append(s[i])
+        ans = max(ans, len(strlist))
+    return ans
