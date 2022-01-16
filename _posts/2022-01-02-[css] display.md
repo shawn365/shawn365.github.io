@@ -8,11 +8,11 @@ comments: true
 ---
 
 - 목차
-	- [block](#1.-block) 
-	- [inline](#2.-inline)
-	- [inline-block](#3.-inline-block)
+	- [block](#block) 
+	- [inline](#inline)
+	- [inline-block](#inline-block)
 
-## 1. block
+## block
 ---
 + block 속성은 inline 과는 달리 __한 줄에 나열되지 않고 그 자체로 한 줄을 완전히 차지한다.__
 + block 속성을 가지고 있는 태그는 __기본적으로 너비 100%(width: 100%)속성을 가지고 있다.__
@@ -23,7 +23,7 @@ comments: true
 #### block 요소 종류
 + address, article, aside, audio, blockquote, canvas, dd, div, dl, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, noscript, ol, output, p, pre, section, table, ul, video
 
-## 2. inline
+## inline
 ---
 + inline 속성은 __줄을 바꾸지 않고 다른 요소와 함께 한 행에 위치하려는 성향이다.__
 + width, height 속성이 적용되지 않는다.
@@ -34,7 +34,7 @@ comments: true
 #### inline 요소 종류 
 + a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, small, script, select, span, strong, sub, sup, textarea, tt, var
 
-## 3. inline-block
+## inline-block
 ---
 + inline-block 은 말그대로 inline의 특징과 block의 특징을 모두 가진 요소입니다.
 + binline 처럼 줄바꿈이 이루어지지 않는다.
