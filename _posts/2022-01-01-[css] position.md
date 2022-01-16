@@ -3,6 +3,7 @@ layout: post
 title:  "[css] position"
 subtitle:   "position - static, relative, absolute, fixed"
 tags: css position relative absolute fixed
+background: '/img/posts/01.jpg'
 comments: true
 ---
 
