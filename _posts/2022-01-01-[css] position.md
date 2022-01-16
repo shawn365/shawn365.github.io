@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[css] layout - position 과 inline"
+title:  "[css] position"
 subtitle:   "position - static, relative, absolute, fixed"
 tags: css position relative absolute fixed
 comments: true
