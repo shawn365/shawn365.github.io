@@ -1,48 +1,38 @@
----
-layout: post
-title: "Python basic"
-subtitle: "print, data types, variable, math expression, Increment and Decrement a Number, Advanced Math Expressions, Concatenating Text Strings"
-date: 2022-01-02 23:44:13 -0400
-background: '/img/posts/03.jpg'
----
+I"(.<ul>
+  <li>목차
+    <ul>
+      <li><a href="#1-print">1. print</a></li>
+      <li><a href="#Data-Types">Data Types</a></li>
+      <li><a href="#inline-block">inline-block</a></li>
+      <li><a href="#inline-block">inline-block</a></li>
+      <li><a href="#inline">inline</a></li>
+      <li><a href="#inline">inline</a></li>
+      <li><a href="#inline">inline</a></li>
+      <li><a href="#inline">inline</a></li>
+      <li><a href="#inline">inline</a></li>
+      <li><a href="#inline">inline</a></li>
+    </ul>
+  </li>
+</ul>
 
-- 목차
-	- [1. print](#1-print) 
-	- [Data Types](#Data-Types)
-	- [inline-block](#inline-block)
-	- [inline-block](#inline-block)
-	- [inline](#inline)
-	- [inline](#inline)
-	- [inline](#inline)
-	- [inline](#inline)
-	- [inline](#inline)
-	- [inline](#inline)
+<h2 id="1-print">1. Print</h2>
+<hr />
+<p>파이썬에서 화면에 출력을 하고자 할때는 <strong>print</strong> 명령어를 사용할 수 있습니다. 예를 들어, “Hello World!” 를 화면에 출력하고자 할때는 다음 코드를 실행하면 됩니다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+</code></pre></div></div>
+<iframe src="https://trinket.io/embed/python/f55f2d774b?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>
 
-## 1. Print
----
-파이썬에서 화면에 출력을 하고자 할때는 __print__ 명령어를 사용할 수 있습니다. 예를 들어, "Hello World!" 를 화면에 출력하고자 할때는 다음 코드를 실행하면 됩니다.
-```python
-print("Hello World!")
-```
-~~~javascript
-function syntaxHighlight(code) {
-   var foo = 'Hello World';
-   var bar = 100;
-}
-~~~
+<p>__print__의 정확한 문법은 다음과 같습니다.</p>
 
+<ul>
+  <li>먼저 <strong>print</strong> 라는 function(함수) 이름이 위치</li>
+  <li>그리고 괄호가 위치</li>
+  <li>괄호 안에 따옴표가 위치</li>
+  <li>마지막으로 따옴표 안에 출력하고자 하는 string(문자열)이 위치</li>
+</ul>
 
-<iframe src="https://trinket.io/embed/python/f55f2d774b?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-**print**의 정확한 문법은 다음과 같습니다.
-
-+ 먼저 __print__ 라는 function(함수) 이름이 위치
-+ 그리고 괄호가 위치
-+ 괄호 안에 따옴표가 위치
-+ 마지막으로 따옴표 안에 출력하고자 하는 string(문자열)이 위치
-
-<img class="img-fluid" src="/img/posts/print.jpg" alt="print-image">
-<hr>
-
+<p><img class="img-fluid" src="/img/posts/print.jpg" alt="print-image" /></p>
+<hr />
 
 <h4>2. Data Types</h4>
 <p>파이썬에서는 다음과 같은 데이터 타입들이 존재 합니다.</p>
@@ -69,9 +59,9 @@ function syntaxHighlight(code) {
 <h6>2-5. Boolean</h6>
 <p>True 나 False 이 2가지 값만 가지고 있으면 조건문에서 많이 사용됩니다. ex)</p>
 <p>data type을 알수 없을 때 type을 쓰면 data type을 알수 있습니다.</p>
-<iframe src="https://trinket.io/embed/python/f06153b6e3?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
-<hr>
-
+<iframe src="https://trinket.io/embed/python/f06153b6e3?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>
+<p><br /><br /></p>
+<hr />
 
 <h4>3. Variables</h4>
 <h6>3-1. Variables(변수)</h6>
@@ -82,9 +72,9 @@ function syntaxHighlight(code) {
 	<li>b = "python"</li>
 	<li>c = [1, 2, 3]</li>
 </ul>
-<img class="img-fluid" src="/img/posts/variable.jpg" alt="variable">
-<변수가 지정되면 print문에 실제 값 대신 변수를 사용할 수 있습니다.>
-<iframe src="https://trinket.io/embed/python/34f1b0503e?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
+<p><img class="img-fluid" src="/img/posts/variable.jpg" alt="variable" /></p>
+<변수가 지정되면="" print문에="" 실제="" 값="" 대신="" 변수를="" 사용할="" 수="" 있습니다.="">
+<iframe src="https://trinket.io/embed/python/34f1b0503e?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
 <h6>3-2. 변수 이름 법칙</h6>
 <p></p>
 <ul>
@@ -95,7 +85,7 @@ function syntaxHighlight(code) {
 	<li>올바른 변수 이름 : name, _name, my_name, myName</li>
 	<li>잘못된 변수 이름: 7name, my name</li>
 </ul>
-<hr>
+<hr />
 
 
 <h4>4. Math Expressions</h4>
@@ -138,7 +128,7 @@ function syntaxHighlight(code) {
 	<li>num3 = num1 / num2</li>
 </ul>
 <p>num3의 값은 7 <b>/</b> 10, 즉 0.7이 됩니다.
-<iframe src="https://trinket.io/embed/python/5d3d4b979c?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
+<iframe src="https://trinket.io/embed/python/5d3d4b979c?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
 
 
 <h6>4-6. <b>//</b>(정수 나누기)</h6>
@@ -149,7 +139,7 @@ function syntaxHighlight(code) {
 	<li>num3 = num1 // num2</li>
 </ul>
 <p>num3의 값은 7 <b>/</b> 2 = 3.5 입니다. 하지만 7 <b>//</b> 2 = 3 이 됩니다.</p>
-<iframe src="https://trinket.io/embed/python/e197a99f97?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
+<iframe src="https://trinket.io/embed/python/e197a99f97?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
 
 
 <h6>4-7. <b>%</b>(나머지)</h6>
@@ -159,8 +149,8 @@ function syntaxHighlight(code) {
 	<li>num3 = num1 % num2</li>
 </ul>
 <p>num3의 값은 6 <b>%</b> 5 = 1 입니다.</p>
-<iframe src="https://trinket.io/embed/python/14f51b260f?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
-<hr>
+<iframe src="https://trinket.io/embed/python/14f51b260f?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
+<hr />
 
 
 <h4>5. Increment and Decrement a Number</h4>
@@ -169,7 +159,7 @@ function syntaxHighlight(code) {
 	<li>파이썬 증감 연산자는 일반적인 ++ 과 다르게 += 연산자를 사용합니다.</li>
 	<li>-= 연산자를 사용하여 변수의 값을 1 감소시킬 수 있습니다.</li>
 </ul>
-<iframe src="https://trinket.io/embed/python/d380f92c6c?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
+<iframe src="https://trinket.io/embed/python/d380f92c6c?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
 
 
 <h6>5-2. Decrement a Number</h6>
@@ -177,8 +167,8 @@ function syntaxHighlight(code) {
 	<li>파이썬 증감 연산자는 일반적인 -- 과 다르게 -= 연산자를 사용합니다.</li>
 	<li>-= 연산자를 사용하여 변수의 값을 1 감소시킬 수 있습니다.</li>
 </ul>
-<iframe src="https://trinket.io/embed/python/3d4f2310f5?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
-<hr>
+<iframe src="https://trinket.io/embed/python/3d4f2310f5?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
+<hr />
 
 
 <h4>6. Advanced Math Expressions</h4>
@@ -196,7 +186,7 @@ function syntaxHighlight(code) {
 	<li><b>print(num1)</b></li>
 </ul>
 <p>num1의 값은 10 <b>*</b> 2 = 20 입니다.</p>
-<iframe src="https://trinket.io/embed/python/14f51b260f?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
+<iframe src="https://trinket.io/embed/python/14f51b260f?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
 
 <h6>6-2. /=</h6>
 <p>/= 는 곱하기를 실행한 후의 값을 변수에 저장합니다.</p>
@@ -206,7 +196,7 @@ function syntaxHighlight(code) {
 	<li><b>print(num1)</b></li>
 </ul>
 <p>num1의 값은 10 <b>/</b> 2 = 5 입니다.</p>
-<iframe src="https://trinket.io/embed/python/888644d32b?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
+<iframe src="https://trinket.io/embed/python/888644d32b?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
 
 
 
@@ -217,8 +207,8 @@ function syntaxHighlight(code) {
 	<li><b>print(num1)</b></li>
 </ul>
 <p>num1의 값은 10 <b>**</b> 2 = 100 입니다.</p>
-<iframe src="https://trinket.io/embed/python/0fb2e1c328?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
-<hr>
+<iframe src="https://trinket.io/embed/python/0fb2e1c328?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
+<hr />
 
 
 <h4>5. Order of Operators</h4>
@@ -231,8 +221,8 @@ function syntaxHighlight(code) {
 </ol>
 <p>만일 실행되는 순서가 동일한 연산들이 있을 경우 (예를 들어 곱하기 와 나누기), 먼저 나오는 연산이 먼저 실행됩니다.</p>
 <p>여기서 중요하게 기억해야 하는 점은 괄호 입니다. 괄호안에 포함된 연산은 항상 먼저 실행됩니다.</p>
-<iframe src="https://trinket.io/embed/python/e0d579b01e?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
-<hr>
+<iframe src="https://trinket.io/embed/python/e0d579b01e?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
+<hr />
 
 
 <h4>6. Concatenating Text Strings</h4>
@@ -245,7 +235,7 @@ function syntaxHighlight(code) {
 <p>예를 들어, 저장한 변수를 사용해서 출력 하고 싶을 경우에는 string concatenation 을 사용하면 편리합니다.</p>
 <p>name = "shawn"</p>
 <p>print("Hello, " + name)</p>
-<iframe src="https://trinket.io/embed/python/880557cb63?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br><br>
+<iframe src="https://trinket.io/embed/python/880557cb63?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe><br /><br />
 
 
 <h6>6-2. 복잡한 string concatenation</h6>
@@ -260,5 +250,7 @@ function syntaxHighlight(code) {
 
 <h4>7. Significant Whitespace</h4>
 <p>Whitespace 란 바로 들여쓰기(indention)을 이야기 합니다. 다른 언어에서는 들여쓰기가 필수사항은 아닙니다. 단순히 코드의 가독성을 높이기 위해서 사용하는 수준입니다. 하지만 파이썬에서는 들여쓰기는 요구사항 입니다. 들여쓰기를 통해 코드의 종속성을 나타냅니다.</p>
-<img class="img-fluid" src="/img/posts/whitespace.jpg" alt="whitespace">
+<img class="img-fluid" src="/img/posts/whitespace.jpg" alt="whitespace" />
 <p>들여쓰기의 칸 수는 일반적으로 4칸입니다. (2칸을 사용하는 개발자도 있습니다.) 대부분 tab 사이즈를 space 4칸으로 설정해서 tab으로 들여쓰기를 합니다. </p>
+</p></p></p></p></변수가>
+:ET
