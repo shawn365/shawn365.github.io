@@ -1,0 +1,80 @@
+I"�<ul>
+  <li>목차
+    <ul>
+      <li><a href="#block">block</a></li>
+      <li><a href="#inline">inline</a></li>
+      <li><a href="#inline-block">inline-block</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="1-block">1. block</h2>
+<hr />
+<blockquote>
+  <ul>
+    <li>block 속성은 inline 과는 달리 <strong>한 줄에 나열되지 않고 그 자체로 한 줄을 완전히 차지한다.</strong></li>
+    <li>block 속성을 가지고 있는 태그는 <strong>기본적으로 너비 100%(width: 100%)속성을 가지고 있다.</strong>
++화면의 가로 폭을 100%로 완전히 차지하기 때문에, 다음 요소가 양 옆으로 붙을 공간이 없어서 자연히 줄 넘김이 된다.</li>
+  </ul>
+</blockquote>
+
+<p data-height="300" data-theme-id="0" data-slug-hash="LYzdLEx" data-default-tab="html,result" data-user="shawn365" class="codepen split-output">
+See the Pen <a href="https://codepen.io/shawn365/pen/LYzdLEx/">block</a> by shawn365 (<a href="https://codepen.io/shawn365">@shawn365</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<blockquote>
+  <ul>
+    <li>인라인 요소와 다르게 margin, width, height 속성을 정의하면 모두 적용된다.</li>
+  </ul>
+</blockquote>
+
+<h4 id="block-요소-종류">block 요소 종류</h4>
+<blockquote>
+  <ul>
+    <li>address, article, aside, audio, blockquote, canvas, dd, div, dl, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, noscript, ol, output, p, pre, section, table, ul, video</li>
+  </ul>
+</blockquote>
+
+<h2 id="2-inline">2. inline</h2>
+<hr />
+<blockquote>
+  <ul>
+    <li>inline 속성은 <strong>줄을 바꾸지 않고 다른 요소와 함께 한 행에 위치하려는 성향이다.</strong></li>
+  </ul>
+</blockquote>
+
+<p data-height="300" data-theme-id="0" data-slug-hash="qBPojEq" data-default-tab="html,result" data-user="shawn365" class="codepen split-output">
+See the Pen <a href="https://codepen.io/shawn365/pen/qBPojEq/">inline</a> by shawn365 (<a href="https://codepen.io/shawn365">@shawn365</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<blockquote>
+  <ul>
+    <li>width, height 속성이 적용되지 않는다.</li>
+    <li>margin-top, margin-bottom 속성이 적용되지 않는다 인라인 요소의 상, 하 여백은 margin이 아닌 line-height 속성에 의해 발생한다.</li>
+    <li>인라인 속성을 가진 태그끼리 연속으로 사용되는 경우에는 최소한의 간격을 유지하기 위해서 좌, 우에 약 5px 가량의 외부 여백(margin)이 자동으로 발생한다.</li>
+  </ul>
+</blockquote>
+
+<h4 id="inline-요소-종류a-abbr-acronym-b-bdo-big-br-button-cite-code-dfn-em-i-img-input-kbd-label-map-object-q-samp-small-script-select-span-strong-sub-sup-textarea-tt-var">inline 요소 종류&lt;a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, small, script, select, span, strong, sub, sup, textarea, tt, var</h4>
+
+<h2 id="3-inline-block">3. inline-block</h2>
+<hr />
+<blockquote>
+  <ul>
+    <li>inline-block 은 말그대로 inline의 특징과 block의 특징을 모두 가진 요소입니다.</li>
+    <li>binline 처럼 줄바꿈이 이루어지지 않는다.</li>
+    <li>block 처럼 width, height를 지정 할수 있다.</li>
+  </ul>
+</blockquote>
+
+<p data-height="300" data-theme-id="0" data-slug-hash="JjrLJoR" data-default-tab="html,result" data-user="shawn365" class="codepen split-output">
+See the Pen <a href="https://codepen.io/shawn365/pen/JjrLJoR/">inline-block</a> by shawn365 (<a href="https://codepen.io/shawn365">@shawn365</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<blockquote>
+  <ul>
+    <li>block인 div를 사용했지만 divplay: inline-block을 적용하니 inline처럼 한 행에 위치한것을 볼수 있다.</li>
+  </ul>
+</blockquote>
+
+:ET

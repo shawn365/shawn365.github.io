@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 layout: post
 title:  "[css] display"
 subtitle:   "inline, inline-block, block"
