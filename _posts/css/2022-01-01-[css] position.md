@@ -2,7 +2,6 @@
 title:  "[css] position"
 subtitle:   "position - static, relative, absolute, fixed"
 tags: css position relative absolute fixed
-background: '/img/posts/01.jpg'
 toc: true
 toc_sticky: true
 toc_label: "목차"
