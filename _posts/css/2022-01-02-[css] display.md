@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "[css] display"
 subtitle:   "inline, inline-block, block"
 tags: css inline inline-block block
-background: '/img/posts/02.jpg'
+toc: true
+toc_sticky: true
+toc_label: "목차"
 comments: true
 ---
 
