@@ -8,11 +8,6 @@ toc_label: "목차"
 comments: true
 ---
 
-- 목차
-	- [block](#block) 
-	- [inline](#inline)
-	- [inline-block](#inline-block)
-
 ## block
 ---
 + block 속성은 inline 과는 달리 __한 줄에 나열되지 않고 그 자체로 한 줄을 완전히 차지한다.__
