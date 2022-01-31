@@ -1,7 +1,6 @@
 ---
 title:  "[css] display"
 subtitle:   "inline, inline-block, block"
-tags: css inline inline-block block
 toc: true
 toc_sticky: true
 toc_label: "목차"
