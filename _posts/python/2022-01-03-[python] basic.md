@@ -1,7 +1,6 @@
 ---
 title: "[python] basic"
 subtitle: "print, data types, variable, math expression, Increment and Decrement a Number, Advanced Math Expressions, Concatenating Text Strings"
-tags: print string integer float complex-number boolean
 toc: true
 toc_sticky: true
 toc_label: "목차"
