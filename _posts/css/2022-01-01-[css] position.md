@@ -1,10 +1,13 @@
 ---
 title:  "[css] position"
 subtitle:   "position - static, relative, absolute, fixed"
+categories:
+  - css
+tags:
+  - [css, blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
-comments: true
 ---
 
 ## position 속성
