@@ -1,7 +1,6 @@
 ---
 title: "[python] basic"
 subtitle: "print, data types, variable, math expression, Increment and Decrement a Number, Advanced Math Expressions, Concatenating Text Strings"
-tags: print string integer float complex-number boolean
 toc: true
 toc_sticky: true
 toc_label: "목차"
@@ -10,7 +9,7 @@ comments: true
 
 
 ## 1. Print
----
+
 파이썬에서 화면에 출력을 하고자 할때는 __print__ 명령어를 사용할 수 있습니다. 예를 들어, "Hello World!" 를 화면에 출력하고자 할때는 다음 코드를 실행하면 됩니다.
 ```python
 print("Hello World!")
@@ -29,7 +28,7 @@ print("Hello World!")
 
 
 ## 2. Data Types
----
+
 파이썬에서는 다음과 같은 데이터 타입들이 존재 합니다.
 + [2-1. string](#2-1-string)
 + [2-2. integer](#2-2-integer)
@@ -55,7 +54,7 @@ data type을 알수 없을 때 type을 쓰면 data type을 알수 있습니다.
 <iframe src="https://trinket.io/embed/python/f06153b6e3?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## 3. Variables
----
+
 #### 3-1. 변수 선언 방법
 변수는 어떻게 만들까? 다음 예와 같은 name, a, b, c를 변수라고 한다.
 name = "송은우
@@ -77,8 +76,7 @@ name = "송은우
 + 잘못된 변수 이름: 7name, my name
 
 ## 4. Math Expressions
----
-#### 기본 수학 연산들은 다음과 같습니다.
+기본 수학 연산들은 다음과 같습니다.
 + [4-1. 더하기](#4-1-더하기)
 + [4-2. 빼기](#4-2-빼기)
 + [4-3. 곱하기](#4-3-곱하기)

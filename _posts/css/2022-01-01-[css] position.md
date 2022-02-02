@@ -1,7 +1,6 @@
 ---
 title:  "[css] position"
 subtitle:   "position - static, relative, absolute, fixed"
-tags: css position relative absolute fixed
 toc: true
 toc_sticky: true
 toc_label: "목차"

@@ -28,10 +28,10 @@ Keyword arguments 방식으로 parameter 값을 전해주면 실제 parameter �
 함수의 parameter에 default 값을 정의해 줄 수 도 있습니다. Default 값이 정의된 paramter는 함수가 호출될때 값이 넘겨지 않아도 괜찮습니다. 값이 넘겨지 않은 경우 default 값이 자동으로 넘겨지게 됩니다.
 <img class="img-fluid" src="/img/posts/parameter-default-value.jpg" alt="Parameter Default Value">
 다만, 조심해야 할점은 default 값이 정의된 parameter가 default 값이 정의 되지 않은 parameter보다 먼저 위치해 있으면 안된다는 점입니다. 만일 default value parameter를 non-default value parameter 앞에 선언하면 syntax error가 납니다.
-<iframe src="https://trinket.io/embed/python/603f604826" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/603f604826?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 위 코드는 y의 값을 2로 지정해줄 의도였지만 python은 순서대로 값을 넘겨주는데 순서대로 x에게 값을 줘야 할지 값이 정의 되지 않은 y에게 줘야할지 알수 없어서 syntax error가 나게 됩니다.
 
-<iframe src="https://trinket.io/embed/python/3edf866bdc" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/3edf866bdc?start=result" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 default 값을 y에게 주면 잘 작동이 되는걸 볼수 있습니다. 앞에 별표는 메모리 주소를 찾아서 값을 읽어준다는 의미이다.
 ## *args
 
