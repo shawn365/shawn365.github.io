@@ -1,10 +1,13 @@
 ---
 title:  "[css] display"
 subtitle:   "inline, inline-block, block"
+categories:
+  - css
+tags:
+  - [css, blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
-comments: true
 ---
 
 ## block
