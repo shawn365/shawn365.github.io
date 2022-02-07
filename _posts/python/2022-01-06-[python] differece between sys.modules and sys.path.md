@@ -9,7 +9,7 @@ toc_sticky: true
 toc_label: "목차"
 ---
 
-## sys.module
+## 1. sys.module
 
 + 파이썬이 제일 먼저 모듈이나 패키지를 찾는곳
 + 단순한 딕션너리 구조 그리고 이미 import된 모듈과 package들을 저장
@@ -17,7 +17,7 @@ toc_label: "목차"
 + 새로 import 하는 모듈은 sys.modules 에서 찾을 수 없다
 
 
-## sys.path
+## 2. sys.path
 
 + 마지막으로 보는 장소가 바로 sys.path 이다
 + sys.path는 기본적으로 list이며 string 요소들을 가지고 있는 list 이다
