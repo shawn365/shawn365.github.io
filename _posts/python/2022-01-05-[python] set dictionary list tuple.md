@@ -9,7 +9,7 @@ toc_sticky: true
 toc_label: "목차"
 ---
 
-## List
+## 1. List
 
 + 대괄호 [] 사용
 + 요소를 삭제하거나 변경할수 있다(mutable(가변성))
@@ -17,7 +17,7 @@ toc_label: "목차"
 + append, remove 메소드로 요소들을 추가하거나 삭제할수 있다
 
 
-## Tuple
+## 2. Tuple
 
 + 소괄호 () 를 사용한다
 + 요소를 삭제하거나 변경할수 없다(immutable(불변성))
@@ -25,7 +25,7 @@ toc_label: "목차"
 + iterable 객체이다 - 반복 가능한 객체
 
 
-## Dictionary
+## 3. Dictionary
 
 + 중괄호 {} 사용
 + 요소를 삭제하거나 변경할수 있다(mutable(가변성))
@@ -33,7 +33,7 @@ toc_label: "목차"
 + key값은 중복이 불가능 하다
 
 
-## Set
+## 4. Set
 
 + set 키워드 사용
 + 요소를 삭제하거나 변경할수 있다(mutable(가변성))
