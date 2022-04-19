@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 toc_label: "목차"
 ---
+##Java
 ~~~java
 class Solution {
     public double solution(int[] arr) {
@@ -17,5 +18,25 @@ class Solution {
         }
         return answer/arr.length;
     }
+}
+~~~
+
+##Python
+~~~python
+def solution(arr):
+    answer = 0
+    answer = sum(arr) / len(arr);
+    return answer
+~~~
+
+##Javascript
+~~~javascript
+function solution(arr) {
+    var answer = 0;
+    for(let i = 0; i < arr.length; i++) {
+        answer += arr[i];
+    }
+    answer /= arr.length;
+    return answer;
 }
 ~~~
