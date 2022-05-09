@@ -8,6 +8,14 @@ toc: true
 toc_sticky: true
 toc_label: "목차"
 ---
+
+##Python
+~~~python
+def solution(arr):
+    answer = sum(arr) / len(arr)
+    return answer
+~~~
+
 ##Java
 ~~~java
 class Solution {
@@ -21,15 +29,6 @@ class Solution {
 }
 ~~~
 
-##Python
-~~~python
-def solution(arr):
-    answer = 0
-    answer = sum(arr) / len(arr);
-    return answer
-~~~
-
-##Javascript
 ~~~javascript
 function solution(arr) {
     var answer = 0;
