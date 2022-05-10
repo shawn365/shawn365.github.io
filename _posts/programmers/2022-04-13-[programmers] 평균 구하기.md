@@ -29,6 +29,7 @@ class Solution {
 }
 ~~~
 
+##javascript
 ~~~javascript
 function solution(arr) {
     var answer = 0;
