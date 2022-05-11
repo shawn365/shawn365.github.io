@@ -9,7 +9,7 @@ toc_sticky: true
 toc_label: "목차"
 ---
 
-##Python
+## Python
 ~~~python
 def solution(x, n):
     sum = 0
@@ -20,7 +20,7 @@ def solution(x, n):
     return answer
 ~~~
 
-##Java
+## Java
 ~~~java
 class Solution {
     public long[] solution(int x, int n) {
@@ -34,7 +34,7 @@ class Solution {
 }
 ~~~
 
-##javascript
+## Javascript
 ~~~javascript
 function solution(x, n) {
     var answer = [];
