@@ -9,7 +9,7 @@ toc_sticky: true
 toc_label: "목차"
 ---
 
-##Python
+## Python
 ~~~python
 a, b = map(int, input().strip().split(' '))
 for i in range(b):
@@ -18,7 +18,7 @@ for i in range(b):
     print();
 ~~~
 
-##Java
+## Java
 ~~~java
 import java.util.Scanner;
 
@@ -37,7 +37,7 @@ class Solution {
 }
 ~~~
 
-##javascript
+## Javascript
 ~~~javascript
 process.stdin.setEncoding('utf8');
 process.stdin.on('data', data => {
