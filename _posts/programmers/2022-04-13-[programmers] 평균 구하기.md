@@ -9,14 +9,14 @@ toc_sticky: true
 toc_label: "목차"
 ---
 
-##Python
+## Python
 ~~~python
 def solution(arr):
     answer = sum(arr) / len(arr)
     return answer
 ~~~
 
-##Java
+## Java
 ~~~java
 class Solution {
     public double solution(int[] arr) {
@@ -29,7 +29,7 @@ class Solution {
 }
 ~~~
 
-##javascript
+## Javascript
 ~~~javascript
 function solution(arr) {
     var answer = 0;
