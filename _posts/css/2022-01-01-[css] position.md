@@ -1,10 +1,10 @@
 ---
-title:  "[css] position"
-subtitle:   "position - static, relative, absolute, fixed"
+title:  "[CSS] position"
+subtitle:   "Position - Static, Relative, Absolute, Fixed"
 categories:
-  - css
+  - CSS
 tags:
-  - [css, blog]
+  - [CSS, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
