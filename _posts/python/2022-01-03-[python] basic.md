@@ -1,10 +1,10 @@
 ---
-title: "[python] basic"
-subtitle: "print, data types, variable, math expression, Increment and Decrement a Number, Advanced Math Expressions, Concatenating Text Strings"
+title: "[Python] basic"
+subtitle: "Print, Data Types, Variable, Math Expression, Increment and Decrement a Number, Advanced Math Expressions, Concatenating Text Strings"
 categories:
-  - python
+  - Python
 tags:
-  - [python, blog]
+  - [Python, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
