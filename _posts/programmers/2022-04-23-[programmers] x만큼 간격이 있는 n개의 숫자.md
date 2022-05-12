@@ -1,9 +1,9 @@
 ---
-title: "[programmers] x만큼 간격이 있는 n개의 숫자"
+title: "[Programmers] x만큼 간격이 있는 n개의 숫자"
 categories:
-  - programmers
+  - Programmers
 tags:
-  - [programmers, blog]
+  - [Programmers, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
