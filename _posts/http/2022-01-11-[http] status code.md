@@ -1,9 +1,9 @@
 ---
-title: "[http] status code"
+title: "[HTTP] Status Code"
 categories:
-  - http
+  - HTTP
 tags:
-  - [http, blog]
+  - [HTTP, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
