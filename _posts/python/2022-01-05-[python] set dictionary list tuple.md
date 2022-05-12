@@ -1,9 +1,9 @@
 ---
-title: "[python] List, Tuple, Set, Dictionary"
+title: "[Python] List, Tuple, Set, Dictionary"
 categories:
-  - python
+  - Python
 tags:
-  - [python, blog]
+  - [Python, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
