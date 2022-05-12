@@ -1,9 +1,9 @@
 ---
-title: "[programmers] 직사각형 별찍기"
+title: "[Programmers] 직사각형 별찍기"
 categories:
-  - programmers
+  - Programmers
 tags:
-  - [programmers, blog]
+  - [Programmers, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
