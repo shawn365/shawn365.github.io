@@ -1,9 +1,9 @@
 ---
-title: "[python] sys.modules, sys.path"
+title: "[Python] sys.modules, sys.path"
 categories:
-  - python
+  - Python
 tags:
-  - [python, blog]
+  - [Python, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
