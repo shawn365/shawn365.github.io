@@ -1,9 +1,9 @@
 ---
-title: "[git & github] commit 수정"
+title: "[Git & GitHub] Commit 수정"
 categories:
-  - git & github
+  - Git & GitHub
 tags:
-  - [git & github, blog]
+  - [Git & GitHub, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
