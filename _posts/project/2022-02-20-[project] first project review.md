@@ -1,9 +1,9 @@
 ---
-title: "[project] 1차 프로젝트 회고록"
+title: "[Project] 1차 프로젝트 회고록"
 categories:
-  - http
+  - Project
 tags:
-  - [http, blog]
+  - [Project, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
@@ -14,8 +14,8 @@ toc_label: "목차"
 ## 1. 프로젝트 소개
 홈 퍼니싱 제품 판매 기업 이케아 클론 프로젝트
 - [유튜브 시연 영상](https://www.youtube.com/watch?v=2w99doEHCzE&feature=youtu.be)
-- [백엔드 깃허브]()
-- [프론트 깃허브]()
+- [백엔드 깃허브](https://github.com/wecode-bootcamp-korea/29-1st-KIKEA-backend)
+- [프론트 깃허브](https://github.com/wecode-bootcamp-korea/29-1st-KIKEA-frontend)
 ### 1-1. 개발 기간
 22.01.24 ~ 22.02.11
 
