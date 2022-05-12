@@ -1,9 +1,9 @@
 ---
-title: "[git & github] git"
+title: "[Git & GitHub] Git"
 categories:
-  - git & github
+  - Git & GitHub
 tags:
-  - [git & github, blog]
+  - [Git & GitHub, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
