@@ -1,10 +1,10 @@
 ---
-title: "[python]함수의 인자 형태와 순서"
-subtitle: "function parameters, *args, **kwargs"
+title: "[Python]함수의 인자 형태와 순서"
+subtitle: "Function Parameters, *args, **kwargs"
 categories:
-  - python
+  - Python
 tags:
-  - [python, blog]
+  - [Python, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
