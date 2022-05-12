@@ -1,10 +1,10 @@
 ---
-title:  "[css] display"
-subtitle:   "inline, inline-block, block"
+title:  "[CSS] Display"
+subtitle:   "Inline, Inline-Block, Block"
 categories:
-  - css
+  - CSS
 tags:
-  - [css, blog]
+  - [CSS, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
