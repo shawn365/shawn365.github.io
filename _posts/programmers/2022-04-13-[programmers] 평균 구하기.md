@@ -1,9 +1,9 @@
 ---
-title: "[programmers] 평균 구하기"
+title: "[Programmers] 평균 구하기"
 categories:
-  - programmers
+  - Programmers
 tags:
-  - [programmers, blog]
+  - [Programmers, Blog]
 toc: true
 toc_sticky: true
 toc_label: "목차"
