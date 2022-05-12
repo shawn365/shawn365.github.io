@@ -1,9 +1,9 @@
 ---
-title: "[python] django"
+title: "[Python] Django"
 categories:
-  - python
+  - Python
 tags:
-  - [python, blog, django]
+  - [Python, Blog, Django]
 toc: true
 toc_sticky: true
 toc_label: "목차"
