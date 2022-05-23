@@ -1,5 +1,5 @@
 ---
-title: "[Programmers] 소수 찾기"
+title: "[Programmers] 소수 찾기 (완전탐색)"
 categories:
   - Programmers
 tags:
