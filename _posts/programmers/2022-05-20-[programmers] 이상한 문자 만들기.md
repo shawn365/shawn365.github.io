@@ -1,5 +1,5 @@
 ---
-title: "[Programmers] 자릿수 더하기"
+title: "[Programmers] 이상한 문자 만들기"
 categories:
   - Programmers
 tags:
