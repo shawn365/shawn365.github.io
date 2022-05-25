@@ -1,5 +1,5 @@
 ---
-title: "[Programmers] 행렬의 덧셈"
+title: "[Programmers] 핸드폰 번호 가리기"
 categories:
   - Programmers
 tags:
@@ -11,13 +11,8 @@ toc_label: "목차"
 
 ## Python
 ~~~python
-def solution(arr1, arr2):
-    answer = []
-    for i in range(len(arr1)):
-        arr = []
-        for j in range(len(arr1[0])):
-            arr.append(arr1[i][j] + arr2[i][j])
-        answer.append(arr)
-        
+def solution(phone_number):
+    answer = '*' * (len(phone_number) - 4) + phone_number[-4:]
+
     return answer
 ~~~
