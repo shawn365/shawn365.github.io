@@ -12,7 +12,7 @@ toc_label: "목차"
 ## Python
 ~~~python
 def solution(s):
-    temp : list = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+    temp = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
     for i in temp:
         s = s.replace(i, str(temp.index(i)))
     return int(s)
