@@ -12,7 +12,7 @@ toc_label: "목차"
 ## Python
 ~~~python
 def solution(n):
-    temp : list = list(str(n))
+    temp = list(str(n))
     answer = list(map(int, temp))
 
     return sum(answer)
