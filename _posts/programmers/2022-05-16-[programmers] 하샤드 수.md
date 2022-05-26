@@ -12,7 +12,7 @@ toc_label: "목차"
 ## Python
 ~~~python
 def solution(x):
-    arr : list = list(str(x))
+    arr = list(str(x))
     sum= 0
     
     for i in arr:
