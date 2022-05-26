@@ -13,7 +13,7 @@ toc_label: "목차"
 ~~~python
 def solution(s):
     answer = ''
-    temps: list = s.split(' ')
+    temps = s.split(' ')
     for temp in temps:
         for i in range(len(temp)):
             if i % 2 == 0:
