@@ -12,14 +12,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/Programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "LeetCode" %}
-                        <li><a href="/categories/LeetCode" class="">LeetCode ({{category[1].size}})</a></li>
+                        <li><a href="/categories/leetcode" class="">LeetCode ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -28,7 +28,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Python" %}
-                    <li><a href="/categories/Python" class="">Python ({{category[1].size}})</a></li>
+                    <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -37,7 +37,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Git & GitHub" %}
-                    <li><a href="/categories/Git & GitHub" class="">Git & GitHub ({{category[1].size}})</a></li>
+                    <li><a href="/categories/git & github" class="">Git & GitHub ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -46,7 +46,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "CSS" %}
-                    <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
+                    <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -54,7 +54,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "HTTP" %}
-                    <li><a href="/categories/HTTP" class="">HTTP ({{category[1].size}})</a></li>
+                    <li><a href="/categories/http" class="">HTTP ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
